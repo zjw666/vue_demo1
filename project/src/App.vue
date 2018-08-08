@@ -1,23 +1,23 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <h1 class="title">新闻直播</h1>
     <router-view/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
-}
+  name: 'App',
+};
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+h1.title{
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-size: 30px;
+  margin: 20px auto;
+}
+#app{
+  width: 100%;
 }
 </style>
